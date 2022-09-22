@@ -1,0 +1,15 @@
+.core-wrap {
+    height: auto;
+    width: 100%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    height: 200px;
+    width: 300px;
+    background: rgba(61, 174, 222, 0.433);
+    margin: 20px;
+}

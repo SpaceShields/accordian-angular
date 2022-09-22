@@ -1,0 +1,12 @@
+.wrap {
+    background: white;
+    padding: 0 10px 0 10px;
+}
+.sort-wrap {
+    margin-left: 10px;
+}
+
+:host {
+    display: block;
+    overflow: hidden;
+  }

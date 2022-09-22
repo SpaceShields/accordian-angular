@@ -1,0 +1,11 @@
+<div class="navbar">
+    <p>Navbar component</p>
+    <button (click)="changeContent()">[icon] Filters</button>
+</div>
+<div class="filter-wrap" id="filterWrap" >
+    <div class="content-wrap">
+        <app-filter-content [isOpen]="showFilters">
+            <app-filters></app-filters>
+        </app-filter-content>
+    </div> 
+</div>
